@@ -1,0 +1,4 @@
+﻿transaction_date,amount,reference,narration,direction
+05-09-2026,30,UPI-TEST-001,Customer payment,CREDIT
+05-09-2026,200,UPI-SUP-001,ABC Distributor,DEBIT
+05-09-2026,999,UPI-PERSONAL-001,Personal shopping,DEBIT

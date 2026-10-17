@@ -1,0 +1,58 @@
+[
+  {
+    "test_id": "INV-001",
+    "description": "Printed GST invoice — kirana shop",
+    "filename": "sample_kirana_invoice.jpg",
+    "expected_output": {
+      "supplier": "Ramesh General Stores",
+      "invoice_number": "GST/2024/001",
+      "date": "2024-03-15",
+      "items": [
+        { "product": "Aashirvaad Atta 5kg", "quantity": 2, "unit_price": 210.0, "item_total": 420.0 },
+        { "product": "Tata Salt 1kg", "quantity": 5, "unit_price": 22.0, "item_total": 110.0 },
+        { "product": "Saffola Gold Oil 1L", "quantity": 3, "unit_price": 155.0, "item_total": 465.0 }
+      ],
+      "subtotal": 995.0,
+      "tax": 89.55,
+      "grand_total": 1084.55,
+      "validation": { "is_valid": true },
+      "status": "MATCHED"
+    }
+  },
+  {
+    "test_id": "INV-002",
+    "description": "Handwritten credit purchase invoice",
+    "filename": "sample_handwritten_invoice.jpg",
+    "expected_output": {
+      "supplier": "Mehta Wholesale",
+      "invoice_number": null,
+      "date": "2024-03-10",
+      "items": [
+        { "product": "Colgate Toothpaste 200g", "quantity": 12, "unit_price": 48.0, "item_total": 576.0 },
+        { "product": "Dettol Soap 75g", "quantity": 24, "unit_price": 35.0, "item_total": 840.0 }
+      ],
+      "subtotal": 1416.0,
+      "grand_total": 1416.0,
+      "paid": 0.0,
+      "due": 1416.0,
+      "validation": { "is_valid": true },
+      "status": "MATCHED"
+    }
+  },
+  {
+    "test_id": "INV-003",
+    "description": "Thermal receipt — missing some fields",
+    "filename": "sample_thermal_receipt.jpg",
+    "expected_output": {
+      "supplier": null,
+      "invoice_number": "REC-8821",
+      "items": [
+        { "product": "Maggi Noodles 70g", "quantity": 6, "unit_price": 14.0, "item_total": 84.0 },
+        { "product": "Parle-G Biscuit 100g", "quantity": 4, "unit_price": 10.0, "item_total": 40.0 }
+      ],
+      "grand_total": 124.0,
+      "validation": { "is_valid": true },
+      "status": "MATCHED"
+    }
+  }
+]

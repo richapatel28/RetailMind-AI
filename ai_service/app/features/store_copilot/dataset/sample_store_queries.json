@@ -1,0 +1,46 @@
+{
+  "multilingual_benchmarks": [
+    {
+      "language": "gu",
+      "query": "કોનું ઉધાર બાકી છે?",
+      "intent": "CUSTOMER_CREDIT",
+      "expected_format": "MARKDOWN_TABLE",
+      "expected_columns": ["ગ્રાહકનું નામ", "તારીખ", "બિલ નંબર", "બાકી રકમ"]
+    },
+    {
+      "language": "gu",
+      "query": "મેગી કયા સપ્લાયર પાસેથી સૌથી સસ્તી મળી?",
+      "intent": "SUPPLIER_PRICE",
+      "expected_format": "COMPARISON_TABLE",
+      "expected_columns": ["સપ્લાયરનું નામ", "પ્રોડક્ટ", "ખરીદ ભાવ", "જથ્થો", "ઇનવોઇસ", "તારીખ"]
+    },
+    {
+      "language": "gu",
+      "query": "કઈ વસ્તુઓનો સ્ટોક ઓછો છે?",
+      "intent": "LOW_STOCK_ALERT",
+      "expected_format": "ALERT_TABLE",
+      "expected_columns": ["પ્રોડક્ટનું નામ", "હાલનો સ્ટોક", "વેચાણ ભાવ", "સ્થિતિ"]
+    },
+    {
+      "language": "en",
+      "query": "Who owes us customer credit (Udhaar)?",
+      "intent": "CUSTOMER_CREDIT",
+      "expected_format": "MARKDOWN_TABLE",
+      "expected_columns": ["Customer Name", "Date", "Bill No", "Due Amount"]
+    },
+    {
+      "language": "hi",
+      "query": "किस ग्राहक का उधार बाकी है?",
+      "intent": "CUSTOMER_CREDIT",
+      "expected_format": "MARKDOWN_TABLE",
+      "expected_columns": ["ग्राहक का नाम", "दिनांक", "बिल नंबर", "बकाया राशि"]
+    },
+    {
+      "language": "mr",
+      "query": "कोणत्या ग्राहकाची उधारी बाकी आहे?",
+      "intent": "CUSTOMER_CREDIT",
+      "expected_format": "MARKDOWN_TABLE",
+      "expected_columns": ["ग्राहकाचे नाव", "दिनांक", "बिल क्रमांक", "बाकी रक्कम"]
+    }
+  ]
+}

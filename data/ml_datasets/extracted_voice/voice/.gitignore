@@ -1,0 +1,28 @@
+.env
+english.m4a
+hindi.m4a
+marathi.m4a
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+aiml/venv/
+
+
+# ML model files
+*.pt
+*.pth
+*.bin

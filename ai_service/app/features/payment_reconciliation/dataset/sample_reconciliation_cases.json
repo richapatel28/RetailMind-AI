@@ -1,0 +1,52 @@
+[
+  {
+    "test_id": "RECON-001",
+    "description": "Bank credit matches a cash sale",
+    "request": {
+      "transaction_date": "2024-03-15",
+      "amount": 1450.00,
+      "reference": "UTR123456789",
+      "narration": "Payment from Ramesh Kumar",
+      "direction": "credit"
+    },
+    "expected_status": "MATCHED",
+    "expected_confidence_min": 0.85
+  },
+  {
+    "test_id": "RECON-002",
+    "description": "Bank debit matches a supplier purchase",
+    "request": {
+      "transaction_date": "2024-03-12",
+      "amount": 8750.50,
+      "reference": "PUR-2024-0312",
+      "narration": "Mehta Wholesale payment",
+      "direction": "debit"
+    },
+    "expected_status": "MATCHED",
+    "expected_confidence_min": 0.80
+  },
+  {
+    "test_id": "RECON-003",
+    "description": "Partial match — needs review",
+    "request": {
+      "transaction_date": "2024-03-10",
+      "amount": 500.00,
+      "reference": null,
+      "narration": "UPI transfer",
+      "direction": "credit"
+    },
+    "expected_status": "REVIEW_REQUIRED"
+  },
+  {
+    "test_id": "RECON-004",
+    "description": "No matching ledger record",
+    "request": {
+      "transaction_date": "2024-01-01",
+      "amount": 99999.00,
+      "reference": "UNKNOWN-REF",
+      "narration": "Unknown transfer",
+      "direction": "debit"
+    },
+    "expected_status": "UNMATCHED"
+  }
+]

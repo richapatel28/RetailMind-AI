@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "noisy_input": "Maggie 70g",
+      "expected_canonical": "Maggi 2-Minute Noodles",
+      "sku": "MAG-001",
+      "expected_status": "MATCHED"
+    },
+    {
+      "noisy_input": "Parle G 250g biscuit",
+      "expected_canonical": "Parle-G Gold Biscuits",
+      "sku": "PAR-002",
+      "expected_status": "MATCHED"
+    },
+    {
+      "noisy_input": "coke can 300ml",
+      "expected_canonical": "Coca Cola Can 300ml",
+      "sku": "COK-003",
+      "expected_status": "MATCHED"
+    },
+    {
+      "noisy_input": "surf exel matic liquid",
+      "expected_canonical": "Surf Excel Matic Front Load",
+      "sku": "SUR-004",
+      "expected_status": "MATCHED"
+    },
+    {
+      "noisy_input": "tata namak 1kg",
+      "expected_canonical": "Tata Salt Vacuum Evaporated",
+      "sku": "TAT-005",
+      "expected_status": "MATCHED"
+    }
+  ]
+}

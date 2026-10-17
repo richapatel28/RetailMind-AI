@@ -1,0 +1,148 @@
+text,intent,payment
+Sold 5 Maggi for cash,sale,cash
+I sold 2 packets of biscuits,sale,unknown
+Sold 10 bottles of Coke,sale,unknown
+I sold rice for 500 rupees,sale,unknown
+Sold 3 chocolates through UPI,sale,upi
+Maggi sold on credit,sale,credit
+I sold 5 kg sugar for cash,sale,cash
+Sell 2 soap bars,sale,unknown
+I sold 4 packets of chips,sale,unknown
+Give 3 Maggi to Rahul on credit,sale,credit
+Sold 2 Maggie and 1 Coca Cola for 45 rupees cash,sale,cash
+Gave 1 Tata Salt and 2 Parle-G for 40 rupees UPI,sale,upi
+Sold 1 Surf Excel for cash,sale,cash
+Customer bought 2 Dettol soaps on credit,sale,credit
+Sold 3 chocolates on UPI payment,sale,upi
+2 bottles of Coca Cola sold for 50 rupees cash,sale,cash
+Cash payment received,sale,cash
+Customer paid cash,sale,cash
+Paid in cash,sale,cash
+Cash received for grocery items,sale,cash
+UPI payment received,sale,upi
+Customer paid using UPI,sale,upi
+Paid through UPI,sale,upi
+Google Pay payment received,sale,upi
+PhonePe payment completed,sale,upi
+Customer bought on credit,sale,credit
+Sold on credit,sale,credit
+Write this in customer credit register,sale,credit
+Credit balance sale recorded,sale,credit
+Pending credit payment sale,sale,credit
+Bought 10 packets of biscuits,purchase,unknown
+I bought 5 kg rice,purchase,unknown
+Bought 3 bottles of oil,purchase,unknown
+Purchased 20 packets of Maggi,purchase,unknown
+I purchased sugar for 1000 rupees,purchase,unknown
+Bought stock using cash,purchase,cash
+Bought goods from supplier,purchase,unknown
+Purchased 50 soap bars from distributor,purchase,unknown
+Bought 12 bottles of soft drinks,purchase,unknown
+Purchased new inventory from wholesale,purchase,unknown
+Wholesale stock bought on cash,purchase,cash
+Supplier delivered 5 boxes of Maggi,purchase,unknown
+Purchased 10 cartons of Tata Salt,purchase,unknown
+Returned 2 packets of biscuits,return,unknown
+Customer returned 3 Maggi,return,unknown
+I returned 5 bottles of oil,return,unknown
+Return 2 soap bars,return,unknown
+Goods were returned by customer,return,unknown
+Rahul returned 3 packets,return,unknown
+Damaged goods returned to shop,return,unknown
+Customer returned expired milk,return,unknown
+Return this packet of chips,return,unknown
+Maine 3 Maggi UPI se bechi,sale,upi
+Maine 5 biscuit cash mein beche,sale,cash
+Maine 2 kilo chawal becha,sale,unknown
+5 Maggi नकद में बेची,sale,cash
+3 packet biscuit UPI se beche,sale,upi
+2 soap udhaar mein diye,sale,credit
+5 kilo rice cash mein becha,sale,cash
+Maggi ke 4 packet beche,sale,unknown
+3 bottle Coke cash mein bechi,sale,cash
+5 chocolate UPI se bechi,sale,upi
+२ मैगी और १ कोका कोला ३० रुपये नकद,sale,cash
+मैगी के दो पैकेट बेचे 30 रुपये नकद,sale,cash
+एक टाटा नमक और दो पारले जी ४० रुपये यूपीआई,sale,upi
+Cash mein payment hua,sale,cash
+नकद भुगतान हुआ,sale,cash
+नकद बिक्री की,sale,cash
+UPI se payment hua,sale,upi
+Google Pay se payment mila,sale,upi
+PhonePe se payment hua,sale,upi
+यूपीआई से भुगतान प्राप्त हुआ,sale,upi
+उधार पर सामान दिया,sale,credit
+Credit pe diya,sale,credit
+Udhaar mein diya,sale,credit
+रमेश को दो मैगी उधार दी,sale,credit
+उधार खाते में लिख लो,sale,credit
+Maine 5 kilo chawal kharida,purchase,unknown
+Maine 10 packet Maggi kharidi,purchase,unknown
+Maine cash mein maal kharida,purchase,cash
+3 kilo sugar kharida,purchase,unknown
+Biscuits kharide,purchase,unknown
+5 bottles oil purchased,purchase,unknown
+चावल खरीदा,purchase,unknown
+दुकान के लिए सामान खरीदा नकद में,purchase,cash
+सप्लायर से बीस पैकेट मैगी खरीदी,purchase,unknown
+होलसेल से नया माल खरीदा,purchase,unknown
+Maine 2 Maggi wapas ki,return,unknown
+2 packet biscuit wapas kiye,return,unknown
+Customer ne Maggi wapas ki,return,unknown
+Maal wapas aaya,return,unknown
+ग्राहक ने दो साबुन वापस किए,return,unknown
+खराब सामान वापस आया,return,unknown
+सामान वापसी हुई,return,unknown
+पाच मैगी रोकड विकली,sale,cash
+दोन साबण विकले,sale,unknown
+तीन किलो तांदूळ विकला,sale,unknown
+५ बिस्कीट रोख विकली,sale,cash
+३ मॅगी UPI ने विकली,sale,upi
+दोन साबण उधारीवर दिले,sale,credit
+२ मॅगी आणि १ कोका कोला ३० रुपये रोख,sale,cash
+२ मॅगी पाकीट ३० रुपयात विकले रोख,sale,cash
+एक टाटा मीठ आणि दोन पारले जी ४० रुपये यूपीआय,sale,upi
+रोख पैसे मिळाले,sale,cash
+रोख व्यवहार पूर्ण झाला,sale,cash
+यूपीआय ने पैसे दिले,sale,upi
+उधारीवर सामान दिले,sale,credit
+ग्राहकाला उधारीवर माल दिला,sale,credit
+खात्यात उधारी नोंदवा,sale,credit
+पाच किलो तांदूळ खरेदी केला,purchase,unknown
+दहा मॅगीचे पॅकेट खरेदी केले,purchase,unknown
+रोख रकमेत माल खरेदी केला,purchase,cash
+पुरवठादाराकडून नवीन माल आला,purchase,unknown
+2 soap parat kele,return,unknown
+Customer ne 3 packet biscuit parat kele,return,unknown
+मॅगी परत केली,return,unknown
+तीन वस्तू परत केल्या,return,unknown
+ग्राहकाने माल परत केला,return,unknown
+૨ મેગી અને ૧ કોકા કોલા ૩૦ રૂપિયા રોકડ,sale,cash
+૨ મેગી ૩૦ રૂપિયામાં રોકડ વેચી,sale,cash
+૧ ટાટા મીઠું અને ૨ પારલે જી ૪૦ રૂપિયા યુપીઆઈ,sale,upi
+પાંચ મેગી રોકડમાં વેચી,sale,cash
+બે પેકેટ બિસ્કિટ વેચ્યા,sale,unknown
+ત્રણ તેલની બોટલ વેચી રોકડમાં,sale,cash
+દસ કિલો ચોખા વેચ્યા,sale,unknown
+ચાર સાબુ યુપીઆઈ થી વેચ્યા,sale,upi
+મેગી ઉધાર પર આપી,sale,credit
+રમેશભાઈને બે સાબુ ઉધાર આપ્યા,sale,credit
+પાંચ કિલો ખાંડ રોકડમાં વેચી,sale,cash
+રોકડ ચૂકવણી મળી,sale,cash
+ગ્રાહકે રોકડા રૂપિયા આપ્યા,sale,cash
+રોકડમાં વેચાણ થયું,sale,cash
+યુપીઆઈ દ્વારા પૈસા મળ્યા,sale,upi
+ગૂગલ પે થી પેમેન્ટ થયું,sale,upi
+ફોનપે થી પૈસા ચૂકવ્યા,sale,upi
+ઉધાર પર માલ આપ્યો,sale,credit
+ખાતામાં ઉધાર લખી લો,sale,credit
+ગ્રાહકે ઉધાર ખરીદી કરી,sale,credit
+દસ પેકેટ મેગી ખરીદી,purchase,unknown
+પાંચ કિલો ચોખા ખરીદ્યા,purchase,unknown
+સપ્લાયર પાસેથી નવો માલ ખરીદ્યો,purchase,unknown
+રોકડ આપીને માલ ખરીદ્યો,purchase,cash
+વીસ સાબુ જથ્થાબંધ ખરીદ્યા,purchase,unknown
+ગ્રાહકે બે પેકેટ બિસ્કિટ પરત કર્યા,return,unknown
+ખરાબ સામાન પરત આવ્યો,return,unknown
+મેગી પાછી આપી,return,unknown
+ગ્રાહકે માલ પાછો આપ્યો,return,unknown
