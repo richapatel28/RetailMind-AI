@@ -1,7 +1,4 @@
-# RetailMind AI — Intelligent Retail. Simplified.
 
-> **An AI-powered operating system for small and medium retail stores (Kiranas).**  
-> Hands-free voice billing, multimodal invoice processing, automated inventory replenishment, and smart bank statement payment reconciliation.
 
 ---
 
@@ -246,3 +243,7 @@ For detailed engineering designs, database entity relationships, and step-by-ste
 - 🔍 [Product Matching — Build Guide & Walkthrough](file:///d:/Capstone_Project/RetailMind/docs/features/04_product_matching/walkthrough.md)
 - 📊 [Store Analytics & Auth — Implementation & Architecture](file:///d:/Capstone_Project/RetailMind/docs/features/05_store_analytics_and_auth/implementation.md)
 - 📊 [Store Analytics & Auth — Build Guide & Walkthrough](file:///d:/Capstone_Project/RetailMind/docs/features/05_store_analytics_and_auth/walkthrough.md)
+
+# RetailMind-AI
+RetailMind AI is an AI-powered retail management platform that streamlines voice-based sales, intelligent invoice processing, inventory management, billing, payment reconciliation, and business insights using machine learning, semantic retrieval, and intelligent automation.
+
